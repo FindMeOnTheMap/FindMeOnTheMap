@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Trip Plan.</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<link href="tripplan.css" type="text/css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+</head>
+
+<body>
+<div id="wrapper">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="Tripplan.html">Trip Plan.</a>
+  <a href="Findme.html">Find Me.</a>
+  
+  
+</div>
+
+<span style="font-size:3em;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<section id="title">
+	<h3><font face="myFirstFont" color="#567211">Floor 2.</font></h3>
+	</section>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+      $("g polyline, g polygon, g rect, g circle").hover(function(e) {
+        $('#info_panel').css('display','block');
+        $('#info_panel').html($(this).data('info'));
+      });
+
+      $("polyline, polygon, rect, circle").mouseleave(function(e) {
+        $('#info_panel').css('display','none');
+      });
+
+      $(document).mousemove(function(e) {
+        $('#info_panel').css('top',e.pageY-$('#info_panel').height()-30);
+        $('#info_panel').css('left',e.pageX-($('#info_panel').width())/2);
+      }).mouseover();
+
+      // var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      // if(ios) {
+      //   $('a').on('click touchend', function() { 
+      //     var link = $(this).attr('href');   
+      //     window.open(link,'_blank');
+      //     return false;
+      //   });
+      // }
+    </script>
+
+    
+<section id="aside">      
+
+
+<!-- floor 2 -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="tepapa_x5F_level2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+
+	 y="0px" viewBox="-300 -300 1240 1080" enable-background="new -300 -300 1240 1080" xml:space="preserve">
+
+<path fill="#9F9F96" stroke="#875B32" stroke-width="9" stroke-miterlimit="10" d="M490-285.3l36.9,18.3l-11.4,22.8l111.2,56.7
+
+	l-19.4,37.3l50,325.9l107.9,57.9l-39.1,77.5c0,0,69.7,49.4-15.4,62.5v315.9l-661.4,0.7l-38.6,75.9l-36.9-19.4l105-207.3l-50-54.5
+
+	c0,0-89.8,95.4-212.2-200.8l337.3-0.4l10.9-36.9l-10.7-2.7l2.2-32.4l8.9-23.2l12.5,1.8l6.3-75.9l80,44.9L490-285.3z"/>
+
+<path fill="none" stroke="#FCFCFA" stroke-width="8" stroke-miterlimit="10" d="M490-286.2l36.9,18.3l-11.4,22.8l111.2,56.3
+
+	l-19.4,37.3l50,326.1l107.9,57.9l-39.1,77.7c0,0,69.7,49.4-15.4,62.5v315.9l-661.4,0.7l-38.6,75.9l-36.9-19.4l105-207.3l-50-54.5
+
+	c0,0-89.8,95.4-212.2-200.8l337.3-0.4l10.9-36.9l-10.7-2.7l2.2-32.4l8.9-23.2l12.5,1.8l6.3-75.9l80,44.9L490-286.2z"/>
+
+<polygon opacity="0.49" fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="366,-3.2 408.5,-87.6 
+
+	602.8,9.6 632.5,202.4 557.7,429.1 360.9,429.1 360.9,516.7 226,516.7 226,541.2 79.7,541.2 "/>
+
+<g id="icon">
+
+	<polyline fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="128.1,302.2 115.2,335.5 44.8,335.5 
+
+		44.8,441.4 28.7,457.5 17.8,465.3 -1.7,471.3 -21.8,471.5 -35.8,467.1 -47.4,461.5 -56.4,455 -67.3,445 -75.1,436.2 -89.4,418.6 
+
+		-112.2,382.9 -126.7,354.7 -150.4,301.8 128.1,302.2 	"/>
+
+</g>
+
+<g id="story">
+
+	<polygon fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="161.2,453.7 177.5,442.7 226.9,442.5 
+
+		226.9,514.4 190.5,514.4 	"/>
+
+</g>
+
+<g id="soundings">
+<a href="soundings.html">
+	<polyline fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="353.3,353.1 295.4,352.7 295.4,338 
+
+		233.3,338.2 233.3,515.8 352.9,515.3 353.3,353.1 	"/>
+	</a>
+</g>
+
+<g id="store">
+<a href="store2.html">
+	<polygon fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="314.7,256.4 409.6,256.4 409.6,296.4 
+
+		372.1,296.4 372.5,338 314.7,337.5 	"/>
+	</a>
+</g>
+
+<g id="gallipoli">
+<a href="gallipoli.html">
+	<polyline fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="578.9,72.8 526.6,46.9 425.5,258.2 
+
+		416.3,258.2 416.3,378.6 594.3,378.6 595.2,171.5 578.9,72.8 	"/>
+	</a>
+</g>
+
+<g id="awesome">
+<a href="awesome.html">
+	<polygon fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="432.4,228.9 498.9,90.7 437.3,59.8 
+
+		414.1,103.8 404,103.8 394,107.6 384.8,113 375.9,121.3 368.9,131.3 361.8,143.4 358.4,154.1 358.4,167.7 358.4,176.9 361.1,187.8 
+
+		366.7,200.8 373,210.8 383,219.8 397.8,227.2 410.5,228.9 421.4,228.9 	"/>
+	</a>
+</g>
+
+<g id="nature">
+
+	<polyline fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="576.7,67.4 463,10.7 486.2,-33.8 
+
+		566.6,7.3 576.7,67.4 	"/>
+
+</g>
+
+<g id="mts">
+<a href="mts.html">
+	<polygon fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="295.7,158.6 354,164.8 354,153.9 
+
+		356.9,142.9 363.1,131.1 372.3,119.3 381.4,111 390.6,105.6 400.7,101.8 406.9,101.8 410.7,101.8 480.9,-36 408.7,-72.4 	"/>
+	</a>
+</g>
+
+<rect x="397.3" y="-44.9" fill="none" width="80" height="50.7"/>
+
+<text transform="matrix(1 0 0 1 397.2055 -29.8671)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Monitorica-Bold'" font-size="20.1043">Mountains</tspan><tspan x="73.5" y="0" font-family="'Monitorica-Bold'" font-size="20.1043"> </tspan></text>
+
+<text transform="matrix(1 0 0 1 397.2055 -5.7419)" fill="#FFFFFF" font-family="'Monitorica-Bold'" font-size="20.1043">to Sea</text>
+
+<rect x="425.2" y="84" fill="none" width="80" height="50.7"/>
+
+<text transform="matrix(1 0 0 1 425.2027 98.9495)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Monitorica-Bold'" font-size="20.1043">Awesome</tspan><tspan x="67.9" y="0" font-family="'Monitorica-Bold'" font-size="20.1043"> </tspan></text>
+
+<text transform="matrix(1 0 0 1 425.2027 123.0747)" fill="#FFFFFF" font-family="'Monitorica-Bold'" font-size="20.1043">Forces</text>
+
+<rect x="419" y="338" fill="none" width="80" height="31.5"/>
+
+<text transform="matrix(1 0 0 1 419.0287 357.9919)" fill="#F9F8F7" font-family="'Monitorica-Bold'" font-size="26.8057">Gallipoli</text>
+
+<rect x="319.1" y="317.8" fill="none" width="50.3" height="22.1"/>
+
+<text transform="matrix(1 0 0 1 319.1252 332.9888)" fill="#FFFFFF" font-family="'Monitorica-Bold'" font-size="20.1043">Store</text>
+
+<rect x="237.8" y="360.7" fill="none" width="104.1" height="63.9"/>
+
+<text transform="matrix(1 0 0 1 237.85 375.7654)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'Monitorica-Bold'" font-size="20.1043">Soundings</tspan><tspan x="73.9" y="0" font-family="'Monitorica-Bold'" font-size="20.1043"> </tspan></text>
+
+<text transform="matrix(1 0 0 1 237.85 399.8897)" fill="#FFFFFF" font-family="'Monitorica-Bold'" font-size="20.1043">Theater</text>
+
+</svg>
+
+
+
+		</section>
+
+
+   <style>
+.button {
+    background-color: #567211;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	
+    font-size: 16px;
+    margin: 5%;
+    cursor: pointer;
+}
+</style>
+    <center>
+    <a href="Tripplan.html" class="button">1st Floor </a>
+	<a href="floor3.html" class="button">3rd Floor </a>
+	</center>
+
+
+   
+    </div>
+    
+    
+
+	</div>
+</body>
+</html>
+

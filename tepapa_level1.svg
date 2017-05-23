@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="tepap_x5F_level4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="-300 -300 1240 1080" enable-background="new -300 -300 1240 1080" xml:space="preserve">
+<g id="hotspot">
+	<circle fill="#B1ED6B" cx="293.3" cy="292.7" r="15.3"/>
+	<circle fill="#33BF11" stroke="#50DD37" stroke-width="12" stroke-miterlimit="10" cx="293.3" cy="292.5" r="8.6"/>
+	<g id="Layer_23">
+	</g>
+</g>
+<g id="hotspot3">
+	<circle fill="#B1ED6B" cx="542.1" cy="575.3" r="15.3"/>
+	<circle fill="#33BF11" stroke="#50DD37" stroke-width="12" stroke-miterlimit="10" cx="542.1" cy="575.1" r="8.6"/>
+	<g id="Layer_23_copy_2">
+	</g>
+</g>
+<path fill="#9F9F96" stroke="#875B32" stroke-width="9" stroke-miterlimit="10" d="M506-286.1l37.2,18.5l-11.5,23L644-187.4
+	l-19.6,37.6l50.5,328.8l108.9,58.4l-39.4,78.2c0,0,70.3,49.8-15.6,63.1v318.7l-667.4,0.7l-39,76.6l-37.2-19.6L91.1,546l-50.5-55
+	c0,0-90.6,96.2-214.1-202.6l340.3-0.5l11-37.2l-10.8-2.7l2.3-32.7l9-23.4l12.6,1.8l6.3-76.6l80.7,45.3L506-286.1z"/>
+<path fill="none" stroke="#FCFCFA" stroke-width="8" stroke-miterlimit="10" d="M506-287l37.2,18.5l-11.5,23L644-188.7l-19.6,37.6
+	L674.9,178l108.9,58.4l-39.4,78.4c0,0,70.3,49.8-15.6,63.1v318.7l-667.4,0.7l-39,76.6l-37.2-19.6L91.1,545.1l-50.5-55
+	c0,0-90.6,96.2-214.1-202.6l340.3-0.5l11-37.2l-10.8-2.7l2.3-32.7l9-23.4l12.6,1.8l6.3-76.6l80.7,45.3L506-287z"/>
+<polygon opacity="0.79" fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="390.5,-5.7 
+	433.4,-90.9 629.4,7.1 659.4,201.6 583.9,430.4 385.3,430.4 385.3,518.7 249.2,518.7 249.2,543.5 101.6,543.5 "/>
+<g id="tehuinga">
+	<polyline fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="112.5,312.5 88.6,368.4 
+		-107.4,368.4 -138.5,312.5 112.5,312.5 	"/>
+</g>
+<g id="tehuinga_1_">
+	<polyline fill="#875B32" stroke="#FCFCFC" stroke-width="0.5" stroke-miterlimit="10" points="81,388.2 52.8,448.4 37.7,464.2 
+		27.3,471.2 19.4,474.8 12.5,476.6 4.3,477.3 -3.5,477.3 -13.5,476.1 -19.3,474.8 -28.1,471.2 -36,466.9 -43.9,460.6 -50.9,454.5 
+		-59.7,445.7 -64.8,439.6 -71.2,431.7 -79,421.1 -100.7,388.2 	"/>
+</g>
+<rect x="388.8" y="358" fill="none" width="288.5" height="51.8"/>
+<text transform="matrix(1 0 0 1 388.7871 401.9864)" fill="#FCFCFC" font-family="'Monitorica-Bold'" font-size="58.5989">Car Park</text>
+<rect x="-128.9" y="316.6" fill="none" width="255.4" height="47.3"/>
+<text transform="matrix(1 0 0 1 -128.874 335.1632)" fill="#F9F9F9" font-family="'Monitorica-Bold'" font-size="24.7919">Te Papa Cafe</text>
+<rect x="-86.3" y="389.6" fill="none" width="144.2" height="51.8"/>
+<text transform="matrix(1 0 0 1 -86.3711 408.1856)" fill="#F9F9F9" font-family="'Monitorica-Bold'" font-size="24.7919">Store</text>
+</svg>
