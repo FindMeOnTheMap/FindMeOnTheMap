@@ -5,39 +5,45 @@
 <title> Find Me.</title>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 <link href="Findme.css" type="text/css" rel="stylesheet">
-
-
-
 </head>
 
 <body>
-<div id="wrapper">
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
+<div id="wrapper">
+ <!--NAV-->
+ 
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script> 
+ 
+<div class="topnav" id="myTopnav">
+ <center>
+  <a href="index.html">Home.</a>
   <a href="Tripplan.html">Trip Plan.</a>
   <a href="Findme.html">Find Me.</a>
-  
-  
+	</center>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	
 </div>
 
-<span style="font-size:3em;cursor:pointer" onclick="openNav()">&#9776;</span>
+<!--NAV DONE-->
 
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
+<!--TITLE-->
 
 <section id="title">
 	<h3><font face="myFirstFont" color="#567211">Find Me.</font></h3>
 	</section>
 
+<!--TITLE DONE-->
+
+<!--MAP-->
 <link rel="stylesheet" href="https://openlayers.org/en/v4.1.1/css/ol.css" type="text/css">
     <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
@@ -151,9 +157,14 @@ var wellingtonWebMercator = ol.proj.fromLonLat(wellingtonLonLat);
     </script>
 
 
+<!--MAP DONE-->
+
+
+
 
 	</div>
 
 </body>
 </html>
+
 
